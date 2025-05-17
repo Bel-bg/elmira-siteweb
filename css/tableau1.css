@@ -1,0 +1,20 @@
+body{
+    width:534px;
+    padding:25px;
+    background-color: bisque;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+td{
+    border: 2px solid black;
+    padding: 5px;
+}
+table{
+    border-collapse: collapse;
+    border:2px solid #333;
+    border-radius: 10px;
+    border-collapse: separate;
+    overflow: hidden;margin: 20px auto;
+    padding: 10px;
+}

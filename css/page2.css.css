@@ -1,0 +1,109 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 22px;
+    border-bottom: 2px solid #005A9C;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+h5 {
+    color: #666;
+    font-size: 16px;
+}
+
+/* Content */
+.contenu {
+    margin-bottom: 20px;
+}
+
+.frm p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Image */
+.photo {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Diplomes */
+.diplome {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.diplome abbr {
+    font-style: normal;
+    text-decoration: underline;
+}
+
+/* Personnalité */
+.personnalite {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+.personnalite em {
+    font-style: italic;
+    color: #555;
+}
+
+/* Links */
+a {
+    color: #005A9C;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header a img, .uac img {
+        width: 90%;
+    }
+
+    .photo {
+        width: 150px;
+        height: auto;
+    }
+    
+    main {
+        margin: 10px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .frm p {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,30 @@
+ul,ol{
+    list-style-position: inside;
+    text-align: center;
+    margin: 20px auto;
+    padding: 0;
+    max-width: 500px;
+    background: #f0f0f0;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #00000022;
+}
+li{
+    padding: 12px;
+    margin: 6px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+li:hover{
+     background-color: #d0ebff;
+     
+}
+ul{
+    list-style-type: square;
+}
+ol{
+    list-style-type: upper-roman;
+}
+h2,p{
+    text-align: center;
+}
